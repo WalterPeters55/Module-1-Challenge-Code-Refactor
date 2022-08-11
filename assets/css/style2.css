@@ -4,16 +4,9 @@
     margin: 0;
 }
 
-/*  Global
----------------------------*/
-
 body {
     background-color: #d9dcd6;
 }
-
-
-/*  Header
----------------------------*/
 
 .header {
     padding: 20px;
@@ -92,23 +85,27 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*  Consolidated margin-bottom and color attributes
+---------------------------*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*  Consolidated style attributes 
+---------------------------*/
 .benefit-lead h3, .benefit-brand, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*  Consolidated margin attributes
+---------------------------*/
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*  Consolidated css attributes to avoid redundancy
+---------------------------*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing   {
     margin-bottom: 20px;
     padding: 50px;
@@ -117,11 +114,13 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*  Consolidated image size for all images with in the article section
+---------------------------*/
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
-
+/*  Consolidated margin-bottom and font size for all sections 
+---------------------------*/
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
